@@ -31,7 +31,7 @@ We do that until we finish the function, each time writing the row into 2 files,
 ### Dependencies 
 I used Python 3.7
 
-###imports I used:
+### imports I used:
 logging <br>
 csv  <br>
 os <br>
