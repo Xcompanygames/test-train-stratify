@@ -221,9 +221,9 @@ def train_test_write(file_name, train_dict, test_dict, list_of_column_names, str
                     print('shuffling the splits')
                     program_logger.info(f'shuffling the splits')
 
-                    rand_num = random.randint(0, 1)
 
                     for row in tqdm(reader):
+                        rand_num = random.randint(0, 1)
                         curr_row_cat = row[stratify_column]
                         if test_dict[curr_row_cat] == 0:
                             rand_num = 0
