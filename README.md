@@ -39,4 +39,4 @@ random <br>
 tqdm <br>
 
 ### Credit
-Made by Oriel Pinhas
+Made by Oriel
